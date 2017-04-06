@@ -13,7 +13,22 @@ import java.awt.event.*;
  * @author Jodi
  */
 public class KeyListenerTester extends Frame implements KeyListener {
-    
+
+    @Override
+    public void keyTyped(KeyEvent ke) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void keyPressed(KeyEvent ke) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void keyReleased(KeyEvent ke) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    /*
     TextField t1;
     Label l1;
     
@@ -23,7 +38,7 @@ public class KeyListenerTester extends Frame implements KeyListener {
         l1 = new Label ("Key Listener!");
         p.add(l1);
         add(p);
-        
+       
     }
-    
+    */
 }
